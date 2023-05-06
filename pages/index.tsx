@@ -39,8 +39,9 @@ export default function Home() {
         </div>
         <div>
           <button
-            onClick={() => {
+            onClick={(e) => {
               setData("");
+              e.preventDefault();
             }}
           >
             Reset
