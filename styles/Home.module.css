@@ -1,0 +1,9 @@
+.x {
+  display: flex;
+  flex-direction: row;
+  column-gap: 4px;
+}
+
+.y {
+  flex-grow: 1;
+}

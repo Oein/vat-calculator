@@ -26,14 +26,27 @@ export default function Home() {
 
   return (
     <div className="container">
-      <input
-        placeholder="판매가액"
-        type="number"
-        value={data}
-        onChange={(e) => {
-          setData(e.target.value);
-        }}
-      ></input>
+      <div className={styles.x}>
+        <div className={styles.y}>
+          <input
+            placeholder="판매가액"
+            type="number"
+            value={data}
+            onChange={(e) => {
+              setData(e.target.value);
+            }}
+          ></input>
+        </div>
+        <div>
+          <button
+            onClick={() => {
+              setData("");
+            }}
+          >
+            Reset
+          </button>
+        </div>
+      </div>
       <h1>공급가액</h1>
       <h2>
         <span

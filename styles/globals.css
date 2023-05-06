@@ -45,7 +45,20 @@ input {
   border-radius: 3px;
   outline: none;
   border: 1px solid #aaa;
-  width: 100%;
   box-sizing: border-box;
   font-size: 1.2rem;
+  width: 100%;
+}
+
+button {
+  padding: 8px 14px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: lightcoral;
+  color: white;
+  cursor: pointer;
 }
